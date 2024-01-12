@@ -17,12 +17,12 @@ A combination of these 3 form a robust system,but unfortunately for this project
 1. Real Time Clock
 1. Software-Arduino IDE,python,MQTT broker and client app.
 ## Block Diagram
-![image](https://github.com/Donnybroke/smart_street_lighting/assets/92339420/dd358934-1703-4ef7-a38d-70352f04fbc3)
+![image](https://github.com/Donnybroke/smart_street_lighting_system/assets/92339420/8dd43cd8-6520-49f0-9c99-c4bb171418bd)
 ## Schematic Diagram
 Using KICAD 7.0, the functional schematic diagram was plotted,showing all functional sections and components.
-![image](https://github.com/Donnybroke/smart_street_lighting/assets/92339420/60367e7e-fd8d-4090-827b-a3bf2323f7ae)
+![image](https://github.com/Donnybroke/smart_street_lighting_system/assets/92339420/ea658383-aec6-4e8b-aa8e-b76032445998)
 ## PCB
-![image](https://github.com/Donnybroke/smart_street_lighting/assets/92339420/eaeb3163-3d15-44e5-b485-fe7d8e171ddd)
+![image](https://github.com/Donnybroke/smart_street_lighting_system/assets/92339420/27b6b2f2-7af3-4a26-a580-efc197f06096)
 ## Arduino Code
 The software part of the project includes the arduino,ESP8266 node MCU and MQTT.
 + Importing and Declarations of Libraries and constants/variables
@@ -189,13 +189,13 @@ else
 ## Results
 Using the data got from the sensors,plots were generated using Python,for the 3 variables against power.
 + Power consumed against Distance of the object in the proximity of the Ultra sonic sensor
-<img width="535" alt="power_dist" src="https://github.com/Donnybroke/smart_street_lighting/assets/92339420/ad409e1a-7386-41cc-bd8e-b5ad691ebce1">
+<img width="535" alt="power_dist" src="https://github.com/Donnybroke/smart_street_lighting_system/assets/92339420/4567527d-6413-4006-be25-cce5424411c8">
 
 + Power consumed against Humidity recorded by Humidity sensor
-<img width="556" alt="pow_hum" src="https://github.com/Donnybroke/smart_street_lighting/assets/92339420/7822668a-55b8-45c9-a408-0c9d1c52da3d">
+<img width="556" alt="pow_hum" src="https://github.com/Donnybroke/smart_street_lighting_system/assets/92339420/e4b7123f-ddc7-4df2-9e0c-4e35a959a03d">
 
 + Power consumed against Light resistance by LDR
-<img width="613" alt="ldr_power" src="https://github.com/Donnybroke/smart_street_lighting/assets/92339420/11440689-6111-4ace-a6b4-a8f040af2d5d">
+<img width="613" alt="ldr_power" src="https://github.com/Donnybroke/smart_street_lighting_system/assets/92339420/8ce6c5a8-d63a-4ca2-8054-868768a110c5">
 
 ## Challenges and Improvements
 1. Using an esp8266 isn't a stable device to implement pwm even though it's necessary for wifi connection.
